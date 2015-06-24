@@ -1,0 +1,9 @@
+blacklist = {'360safe': False,
+            'QQProtect': False, }
+softwares = [k for k, v in blacklist.items() if v]
+
+
+
+possible and ['2'] or ['1']
+
+
