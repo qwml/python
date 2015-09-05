@@ -1,7 +1,7 @@
 response=urllib2.urlopen(url)
         try:
                 data=response.read()
-        except ImcompleteRead as e:
+        except IncompleteRead as e:
                 data=e.partial
         except:
                 return 0
