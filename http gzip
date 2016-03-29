@@ -1,11 +1,4 @@
 
-Python—HTTP处理Gzip压缩数据
-(2010-10-25 22:06:15)
-转载▼
-标签：
-it
-分类： python
-
 HTTP 请求中包含 Accept-encoding: gzip 头信息可以告诉服务器，如果它有任何新数据要发送给我时，请以压缩的格式发送。如果服务器支持压缩，它将返回由 gzip 压缩的数据并且使用 Content-encoding: gzip 头信息标记。
 
 #codeing:utf-8
